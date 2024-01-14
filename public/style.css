@@ -1,0 +1,61 @@
+body {
+  color: #000;
+  background-image: url("./img/bg-one.png");
+  background-size: 100%;
+  transition: 1s;
+  /* opacity: 0; */
+}
+
+.bg-one {
+  /* background-image: url("./img/bg-one.png"); */
+  background-color: #f00;
+  opacity: 1;
+  transition: 2s;
+}
+
+.bg-two {
+  background-image: url("./img/bg-one.png");
+  /* background-color: #0f0; */
+  opacity: 1;
+  transition: 2s;
+}
+
+.bg-three {
+  /* background-image: url("./img/bg-three.png"); */
+  background-color: #00f;
+  opacity: 1;
+  transition: 2s;
+}
+
+.bg-four {
+  background-image: url("./img/bg-one.png");
+  /* background-color: #ff0; */
+  opacity: 1;
+  transition: 2s;
+}
+
+.bg-five {
+  /* background-image: url("./img/bg-five.jpeg"); */
+  background-color: aqua;
+  opacity: 1;
+  transition: 2s;
+}
+
+.bg-six {
+  background-color: gold;
+  opacity: 1;
+  transition: 2s;
+}
+
+.bg-seven {
+  background-image: url("./img/bg-one.png");
+  /* background-color: silver; */
+  opacity: 1;
+  transition: 2s;
+}
+
+.bg-eight {
+  background-color: sienna;
+  opacity: 1;
+  transition: 2s;
+}
