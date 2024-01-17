@@ -7,23 +7,23 @@ body {
 .bg-one {
   background-image: url("./img/prototype1.png");
   opacity: 1;
-  transition: 2s;
+  transition: 3s;
 }
 
 .bg-two {
   background-image: url("./img/prototype2.png");
   opacity: 1;
-  transition: 2s;
+  transition: 3s;
 }
 
 .bg-three {
   background-image: url("./img/prototype3.png");
   opacity: 1;
-  transition: 2s;
+  transition: 3s;
 }
 
 .bg-four {
   background-image: url("./img/prototype4.png");
   opacity: 1;
-  transition: 2s;
+  transition: 3s;
 }

@@ -23,4 +23,4 @@ setInterval(_=>{
 
   startFlag = 1;
 
-}, 5000);
+}, 10000);
