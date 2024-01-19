@@ -1,26 +1,12 @@
 let index = 0;
-let pastIndex;
-let startFlag = 0;
-const bgStyle = [
-  "bg-one",
-  "bg-two",
-  "bg-three",
-  "bg-four",
+
+const bgImage = [
+  "url(/public/img/prototype1.png)",
+  "url(/public/img/prototype2.png)",
+  "url(/public/img/prototype3.png)"
 ];
 
-const targetStyle = document.getElementById("target-style");
-
 setInterval(_=>{
-  if(startFlag !== 0)
-    targetStyle.classList.remove(bgStyle[pastIndex]);  
-
-  index = Math.floor(Math.random() * bgStyle.length);
-
-  pastIndex = index;
-  console.log(index);
-
-  targetStyle.classList.add(bgStyle[index]);
-
-  startFlag = 1;
-
-}, 10000);
+  index = Math.floor(Math.random() * bgImage.length);
+  document.body.style.backgroundImage = bgImage[index];
+}, 5000);
