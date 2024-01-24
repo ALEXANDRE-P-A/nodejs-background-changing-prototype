@@ -2,5 +2,5 @@ body {
   color: #000;
   background-size: 100%;
   background-image: url('./img/prototype1.png');
-  transition: 3s;
+  transition: .5s;
 }
