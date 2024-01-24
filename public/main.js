@@ -9,6 +9,6 @@ const bgImage = [
 
 setInterval(_=>{
   index = Math.floor(Math.random() * bgImage.length);
-  console.log(index);
+  document.getElementById("test").textContent = index;
   document.body.style.backgroundImage = bgImage[index];
 }, 5000);
