@@ -1,10 +1,16 @@
 let index = 0;
 
 const bgImage = [
-  "url(/public/img/prototype1.png)",
-  "url(/public/img/prototype2.png)",
-  "url(/public/img/prototype3.png)",
-  "url(/public/img/prototype4.png)"
+  "url(/public/img/prototype-tg1.png)",
+  "url(/public/img/prototype-tg2.png)",
+  "url(/public/img/prototype-tg3.png)",
+  "url(/public/img/prototype-tg4.png)",
+  "url(/public/img/prototype-tg5.png)",
+  "url(/public/img/prototype-tg6.png)",
+  "url(/public/img/prototype-tg7.png)",
+  "url(/public/img/prototype-tg8.png)",
+  "url(/public/img/prototype-tg9.png)",
+  "url(/public/img/prototype-tg10.png)"
 ];
 
 const preloadImages = array => {
@@ -28,10 +34,16 @@ const preloadImages = array => {
 */
 
 preloadImages([
-  "/public/img/prototype1.png",
-  "/public/img/prototype2.png",
-  "/public/img/prototype3.png",
-  "/public/img/prototype4.png"
+  "/public/img/prototype-tg1.png",
+  "/public/img/prototype-tg2.png",
+  "/public/img/prototype-tg3.png",
+  "/public/img/prototype-tg4.png",
+  "/public/img/prototype-tg5.png",
+  "/public/img/prototype-tg6.png",
+  "/public/img/prototype-tg7.png",
+  "/public/img/prototype-tg8.png",
+  "/public/img/prototype-tg9.png",
+  "/public/img/prototype-tg10.png"
 ]);
 
 setInterval(_=>{
